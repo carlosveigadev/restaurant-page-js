@@ -7,4 +7,4 @@ export function navbar() {
   navContainer.appendChild(title);
   navContainer.className = "grid grid-cols-1";
   title.className = "place-self-center p-8 font-bold";
-}
+};
