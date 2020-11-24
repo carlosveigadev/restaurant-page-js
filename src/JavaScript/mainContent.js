@@ -10,13 +10,18 @@ export function mainContent() {
   content.appendChild(mainContainer);
   mainContainer.appendChild(restaurantImage);
   mainContainer.appendChild(tabsDiv);
-  mainContainer.className = 'grid grid-cols-2';
-  restaurantImage.className = 'm-10 rounded'
+  mainContainer.className = 'grid grid-cols-2 px-10';
+  restaurantImage.className = 'rounded'
   const tabs = document.createElement('ul');
-  const tabsObjects = ['Appetizers', 'Main Dishes', 'Deserts'];
-  tabsObjects.forEach(element => {
-    document.createElement('li').innerHTML = element;
+  const tabsMenu = ['Appetizers', 'Main Dishes', 'Deserts'];
+  tabsMenu.forEach(element => {
+    var item = document.createElement('li');
+    item.innerHTML = element;
+    item.className = 'button-tab mx-2';
+    tabs.appendChild(item);
   })
+  tabsDiv.appendChild(tabs);
+  tabs.className = 'flex'
   // tabsDiv
   
   // title.textContent = "Restaurant";

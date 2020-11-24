@@ -12,8 +12,8 @@ export function appetizers() {
   appetizersDiv.appendChild(appetizerImg);
   appetizersDiv.appendChild(contentAppetizers);
   contentAppetizers.appendChild(appetizersParagraph);
-  appetizersDiv.className = 'm-24';
+  appetizersDiv.className = 'm-10';
   appetizersParagraph.className = 'font-bold text-lg text-yellow-900';
   appetizerImg.setAttribute('src', '/src/assets/imgs/appetizers.png');
-  appetizerImg.className = 'w-full rounded'
+  appetizerImg.className = 'rounded'
 };
