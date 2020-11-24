@@ -12,6 +12,11 @@ export function mainContent() {
   mainContainer.appendChild(tabsDiv);
   mainContainer.className = 'grid grid-cols-2';
   restaurantImage.className = 'm-10 rounded'
+  const tabs = document.createElement('ul');
+  const tabsObjects = ['Appetizers', 'Main Dishes', 'Deserts'];
+  tabsObjects.forEach(element => {
+    document.createElement('li').innerHTML = element;
+  })
   // tabsDiv
   
   // title.textContent = "Restaurant";
