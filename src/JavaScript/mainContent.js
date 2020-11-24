@@ -21,7 +21,7 @@ export function mainContent() {
     tabs.appendChild(item);
   })
   tabsDiv.appendChild(tabs);
-  tabs.className = 'flex'
+  tabs.className = 'flex mx-10'
   // tabsDiv
   
   // title.textContent = "Restaurant";

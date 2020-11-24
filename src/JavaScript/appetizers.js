@@ -12,7 +12,7 @@ export function appetizers() {
   appetizersDiv.appendChild(appetizerImg);
   appetizersDiv.appendChild(contentAppetizers);
   contentAppetizers.appendChild(appetizersParagraph);
-  appetizersDiv.className = 'm-10';
+  appetizersDiv.className = 'mx-10';
   appetizersParagraph.className = 'font-bold text-lg text-yellow-900';
   appetizerImg.setAttribute('src', '/src/assets/imgs/appetizers.png');
   appetizerImg.className = 'rounded'
