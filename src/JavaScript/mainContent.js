@@ -1,4 +1,3 @@
-// import tabsDiv
 export function mainContent() {
   const content = document.getElementById('content');
   const mainContainer = document.createElement('div');
@@ -13,22 +12,18 @@ export function mainContent() {
   mainContainer.className = 'grid grid-cols-2 px-10';
   restaurantImage.className = 'rounded'
   const tabs = document.createElement('ul');
-  const tabsMenu = ['Appetizers', 'Main Dishes', 'Deserts'];
+  const tabsMenu = ['Appetizers', 'Main Dishes', 'Desserts'];
   tabsMenu.forEach(element => {
     var item = document.createElement('li');
-    item.innerHTML = element;
-    item.className = 'button-tab mx-2';
-    item.setAttribute('id', element.split(' ').join(''));
+    var anchor = document.createElement('a');
+    item.appendChild(anchor);
+    anchor.innerHTML = element;
+    item.className = 'button-tab p-2';
+    element = element.split(' ').join('');
+    anchor.setAttribute('href', `#${element}`);
     tabs.appendChild(item);
-  })
+  });
   tabsDiv.appendChild(tabs);
-  tabs.className = 'flex mx-10'
-  // tabsDiv
-  
-  // title.textContent = "Restaurant";
-  // content.appendChild(navContainer);
-  // navContainer.appendChild(title);
-  // navContainer.className = "grid grid-cols-1";
-  // title.className = "place-self-center p-8 font-bold";
-
+  tabs.className = 'flex mx-10';
+  tabs.firstChild.className += " active";
 };

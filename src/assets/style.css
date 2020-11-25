@@ -1,0 +1,32 @@
+ul {
+  list-style: none;
+  padding: 0;
+  color: burlywood;
+}
+
+a {
+  transition: all .3s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: darkgoldenrod;
+}
+
+ul .active a { 
+  color: darkgoldenrod; 
+  border-bottom: 1px solid darkgoldenrod;
+  &:hover {
+    border-color: transparent;
+    background: slateblue;
+    color: white;
+  }
+}
+
+.tab-pane { 
+  display: none;
+}
+
+.tab-pane.active { 
+  display: block; 
+}

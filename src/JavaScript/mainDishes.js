@@ -1,4 +1,4 @@
-export function mainDish() {
+export function mainDishes() {
   const tabsDiv = document.getElementById('tabsDiv');
   const mainDiv = document.createElement('div');
   const mainDishImg = document.createElement('img');
@@ -12,7 +12,7 @@ export function mainDish() {
   mainDiv.appendChild(mainDishImg);
   mainDiv.appendChild(contentMainDish);
   contentMainDish.appendChild(mainDishParagraphs);
-  mainDiv.className = 'mx-10';
+  mainDiv.className = 'mx-10 tab-pane';
   mainDishParagraphs.className = 'font-bold text-lg text-yellow-900';
   mainDishImg.setAttribute('src', '/src/assets/imgs/mainDish.png');
   mainDishImg.className = 'w-full rounded';

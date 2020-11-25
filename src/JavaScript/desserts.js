@@ -1,4 +1,4 @@
-export function dessert() {
+export function desserts() {
   const tabsDiv = document.getElementById('tabsDiv');
   const dessertDiv = document.createElement('div');
   const dessertImg = document.createElement('img');
@@ -12,7 +12,7 @@ export function dessert() {
   dessertDiv.appendChild(dessertImg);
   dessertDiv.appendChild(contentDessert);
   contentDessert.appendChild(dessertParagraphs);
-  dessertDiv.className = 'mx-10';
+  dessertDiv.className = 'mx-10 tab-pane';
   dessertParagraphs.className = 'font-bold text-lg text-yellow-900';
   dessertImg.setAttribute('src', '/src/assets/imgs/dessert.png');
   dessertImg.className = 'w-full rounded';
