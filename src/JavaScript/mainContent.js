@@ -18,6 +18,7 @@ export function mainContent() {
     var item = document.createElement('li');
     item.innerHTML = element;
     item.className = 'button-tab mx-2';
+    item.setAttribute('id', element.split(' ').join(''));
     tabs.appendChild(item);
   })
   tabsDiv.appendChild(tabs);

@@ -12,7 +12,7 @@ export function mainDish() {
   mainDiv.appendChild(mainDishImg);
   mainDiv.appendChild(contentMainDish);
   contentMainDish.appendChild(mainDishParagraphs);
-  mainDiv.className = 'm-24';
+  mainDiv.className = 'mx-10';
   mainDishParagraphs.className = 'font-bold text-lg text-yellow-900';
   mainDishImg.setAttribute('src', '/src/assets/imgs/mainDish.png');
   mainDishImg.className = 'w-full rounded';

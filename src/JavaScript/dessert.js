@@ -12,7 +12,7 @@ export function dessert() {
   dessertDiv.appendChild(dessertImg);
   dessertDiv.appendChild(contentDessert);
   contentDessert.appendChild(dessertParagraphs);
-  dessertDiv.className = 'm-24';
+  dessertDiv.className = 'mx-10';
   dessertParagraphs.className = 'font-bold text-lg text-yellow-900';
   dessertImg.setAttribute('src', '/src/assets/imgs/dessert.png');
   dessertImg.className = 'w-full rounded';
