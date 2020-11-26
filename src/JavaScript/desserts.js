@@ -1,12 +1,12 @@
-export function desserts() {
+function desserts() {
   const tabsDiv = document.getElementById('tabsDiv');
   const dessertDiv = document.createElement('div');
   const dessertImg = document.createElement('img');
   const contentDessert = document.createElement('div');
   const dessertParagraphs = document.createElement('p');
-  const appetizers = ['Cheesecake with Cranberry Glaze and Sugared Cranberries', 'Caramel Bars', 'Cranberry-Orange Bundt® Cake', 'Almond Milk Chocolate Pudding', "Russian Honey Cake", 'Pumpkin Spice Latte Coffee Cake'];
+  const appetizers = ['Cheesecake with Cranberry Glaze and Sugared Cranberries', 'Caramel Bars', 'Cranberry-Orange Bundt® Cake', 'Almond Milk Chocolate Pudding', 'Russian Honey Cake', 'Pumpkin Spice Latte Coffee Cake'];
   appetizers.forEach(element => {
-    dessertParagraphs.innerHTML += "-" + " " + element + ";<br>";
+    dessertParagraphs.innerHTML += `- ${element};<br>`;
   });
   tabsDiv.appendChild(dessertDiv);
   dessertDiv.appendChild(dessertImg);
@@ -18,3 +18,5 @@ export function desserts() {
   dessertImg.setAttribute('src', '/src/assets/imgs/dessert.png');
   dessertImg.className = 'w-full rounded';
 }
+
+export default desserts;

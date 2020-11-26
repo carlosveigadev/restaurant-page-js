@@ -1,6 +1,4 @@
-import { mainContent } from "./mainContent";
-
-export function mainDishes() {
+function mainDishes() {
   const tabsDiv = document.getElementById('tabsDiv');
   const mainDiv = document.createElement('div');
   const mainDishImg = document.createElement('img');
@@ -8,7 +6,7 @@ export function mainDishes() {
   const mainDishParagraphs = document.createElement('p');
   const appetizers = ['Bacon-Wrapped Pesto Pork Tenderloin', 'Prime Rib with Fresh Herb Sauce', 'Duck Breasts with Apricot Chutney', 'Pork Tenderloin with Three-Berry Salsa', "Nana's Italian Roulade", 'Balsamic Roast Chicken'];
   appetizers.forEach(element => {
-    mainDishParagraphs.innerHTML += "-" + " " + element + ";<br>";
+    mainDishParagraphs.innerHTML += `- ${element};<br>`;
   });
   tabsDiv.appendChild(mainDiv);
   mainDiv.appendChild(mainDishImg);
@@ -20,3 +18,5 @@ export function mainDishes() {
   mainDishImg.setAttribute('src', '/src/assets/imgs/mainDish.png');
   mainDishImg.className = 'w-full rounded';
 }
+
+export default mainDishes;

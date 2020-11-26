@@ -1,4 +1,4 @@
-export function mainContent() {
+function mainContent() {
   const content = document.getElementById('content');
   const mainContainer = document.createElement('div');
   const restaurantImage = document.createElement('img');
@@ -10,12 +10,12 @@ export function mainContent() {
   mainContainer.appendChild(restaurantImage);
   mainContainer.appendChild(tabsDiv);
   mainContainer.className = 'grid grid-cols-2 px-10';
-  restaurantImage.className = 'rounded'
+  restaurantImage.className = 'rounded';
   const tabs = document.createElement('ul');
   const tabsMenu = ['Appetizers', 'Main Dishes', 'Desserts'];
   tabsMenu.forEach(element => {
-    var item = document.createElement('li');
-    var anchor = document.createElement('a');
+    const item = document.createElement('li');
+    const anchor = document.createElement('a');
     item.appendChild(anchor);
     anchor.innerHTML = element;
     item.className = 'button-tab p-2';
@@ -25,5 +25,7 @@ export function mainContent() {
   });
   tabsDiv.appendChild(tabs);
   tabs.className = 'flex mx-10';
-  tabs.firstChild.className += " active";
-};
+  tabs.firstChild.className += ' active';
+}
+
+export default mainContent;
