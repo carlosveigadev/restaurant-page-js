@@ -4,7 +4,7 @@ function mainContent() {
   const restaurantImage = document.createElement('img');
   const tabsDiv = document.createElement('div');
   tabsDiv.setAttribute('id', 'tabsDiv');
-  restaurantImage.setAttribute('src', '/src/assets/imgs/restaurant.jpg');
+  restaurantImage.setAttribute('src', '../src/assets/imgs/restaurant.jpg');
   restaurantImage.setAttribute('alt', 'Restaurant Image');
   content.appendChild(mainContainer);
   mainContainer.appendChild(restaurantImage);
