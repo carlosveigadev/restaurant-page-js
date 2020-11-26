@@ -15,7 +15,7 @@ function desserts() {
   contentDessert.appendChild(dessertParagraphs);
   dessertDiv.className = 'mx-10 tab-pane';
   dessertParagraphs.className = 'font-bold text-xl text-yellow-900 py-4';
-  dessertImg.setAttribute('src', '/src/assets/imgs/dessert.png');
+  dessertImg.setAttribute('src', '../src/assets/imgs/dessert.png');
   dessertImg.className = 'w-full rounded';
 }
 

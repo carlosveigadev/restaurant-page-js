@@ -15,7 +15,7 @@ function mainDishes() {
   contentMainDish.appendChild(mainDishParagraphs);
   mainDiv.className = 'mx-10 tab-pane';
   mainDishParagraphs.className = 'font-bold text-xl text-yellow-900 py-4';
-  mainDishImg.setAttribute('src', '/src/assets/imgs/mainDish.png');
+  mainDishImg.setAttribute('src', '../src/assets/imgs/mainDish.png');
   mainDishImg.className = 'w-full rounded';
 }
 
