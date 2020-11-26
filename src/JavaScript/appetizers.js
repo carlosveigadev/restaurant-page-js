@@ -11,6 +11,7 @@ export function appetizers() {
   tabsDiv.appendChild(appetizersDiv);
   appetizersDiv.appendChild(appetizerImg);
   appetizersDiv.appendChild(contentAppetizers);
+  appetizersDiv.setAttribute('id', 'Appetizers')
   contentAppetizers.appendChild(appetizersParagraph);
   appetizersDiv.className = 'mx-10 tab-pane active';
   appetizersParagraph.className = 'font-bold text-lg text-yellow-900';

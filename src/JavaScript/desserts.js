@@ -11,6 +11,7 @@ export function desserts() {
   tabsDiv.appendChild(dessertDiv);
   dessertDiv.appendChild(dessertImg);
   dessertDiv.appendChild(contentDessert);
+  dessertDiv.setAttribute('id', 'Desserts');
   contentDessert.appendChild(dessertParagraphs);
   dessertDiv.className = 'mx-10 tab-pane';
   dessertParagraphs.className = 'font-bold text-lg text-yellow-900';

@@ -1,3 +1,5 @@
+import { mainContent } from "./mainContent";
+
 export function mainDishes() {
   const tabsDiv = document.getElementById('tabsDiv');
   const mainDiv = document.createElement('div');
@@ -11,6 +13,7 @@ export function mainDishes() {
   tabsDiv.appendChild(mainDiv);
   mainDiv.appendChild(mainDishImg);
   mainDiv.appendChild(contentMainDish);
+  mainDiv.setAttribute('id', 'MainDishes');
   contentMainDish.appendChild(mainDishParagraphs);
   mainDiv.className = 'mx-10 tab-pane';
   mainDishParagraphs.className = 'font-bold text-lg text-yellow-900';
