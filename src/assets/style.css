@@ -5,7 +5,7 @@ ul {
 }
 
 a {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border-bottom: 1px solid transparent;
 }
 
@@ -13,9 +13,10 @@ a:hover {
   color: darkgoldenrod;
 }
 
-ul .active a { 
-  color: darkgoldenrod; 
+ul .active a {
+  color: darkgoldenrod;
   border-bottom: 1px solid darkgoldenrod;
+
   &:hover {
     border-color: transparent;
     background: slateblue;
@@ -23,10 +24,10 @@ ul .active a {
   }
 }
 
-.tab-pane { 
+.tab-pane {
   display: none;
 }
 
-.tab-pane.active { 
-  display: block; 
+.tab-pane.active {
+  display: block;
 }
