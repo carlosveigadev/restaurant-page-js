@@ -4,7 +4,7 @@ function appetizers() {
   const appetizerImg = document.createElement('img');
   const contentAppetizers = document.createElement('div');
   const appetizersParagraph = document.createElement('p');
-  const appetizers = ['Air Fryer Stuffed Mushrooms', 'Amazing No Cook Spinach Artichoke Dip', 'Classic Savory Deviled Eggs', 'Best Hot Crab Dip', 'Pecan Snack', 'Orange and Rosemary Baked Olives'];
+  const appetizers = ['Air Fryer Stuffed Mushrooms', 'Amazing No Cook Spinach Artichoke Dip', 'Classic Savory Deviled Eggs', 'Best Hot Crab Dip', 'Pecan Snack', 'Orange and Rosemary Baked Olives', 'Buffalo Chicken Meatballs', 'Mini Corn Muffins with Spicy Cheddar Filling'];
   appetizers.forEach(element => {
     appetizersParagraph.innerHTML += `- ${element};<br>`;
   });
@@ -14,7 +14,7 @@ function appetizers() {
   appetizersDiv.setAttribute('id', 'Appetizers');
   contentAppetizers.appendChild(appetizersParagraph);
   appetizersDiv.className = 'mx-10 tab-pane active';
-  appetizersParagraph.className = 'font-bold text-lg text-yellow-900';
+  appetizersParagraph.className = 'font-bold text-3xl text-yellow-900 py-8';
   appetizerImg.setAttribute('src', '/src/assets/imgs/appetizers.png');
   appetizerImg.className = 'rounded';
 }

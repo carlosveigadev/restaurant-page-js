@@ -18,7 +18,7 @@ function mainContent() {
     const anchor = document.createElement('a');
     item.appendChild(anchor);
     anchor.innerHTML = element;
-    item.className = 'button-tab p-2';
+    item.className = 'button-tab p-2 text-2xl';
     element = element.split(' ').join('');
     anchor.setAttribute('href', `#${element}`);
     tabs.appendChild(item);

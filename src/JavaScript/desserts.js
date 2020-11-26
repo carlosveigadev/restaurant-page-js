@@ -4,8 +4,8 @@ function desserts() {
   const dessertImg = document.createElement('img');
   const contentDessert = document.createElement('div');
   const dessertParagraphs = document.createElement('p');
-  const appetizers = ['Cheesecake with Cranberry Glaze and Sugared Cranberries', 'Caramel Bars', 'Cranberry-Orange Bundt® Cake', 'Almond Milk Chocolate Pudding', 'Russian Honey Cake', 'Pumpkin Spice Latte Coffee Cake'];
-  appetizers.forEach(element => {
+  const desserts = ['Cheesecake with Cranberry Glaze and Sugared Cranberries', 'Caramel Bars', 'Cranberry-Orange Bundt® Cake', 'Almond Milk Chocolate Pudding', 'Russian Honey Cake', 'Pumpkin Spice Latte Coffee Cake', 'Cranberry Apple Pie II', 'Sweet Spot'];
+  desserts.forEach(element => {
     dessertParagraphs.innerHTML += `- ${element};<br>`;
   });
   tabsDiv.appendChild(dessertDiv);
@@ -14,7 +14,7 @@ function desserts() {
   dessertDiv.setAttribute('id', 'Desserts');
   contentDessert.appendChild(dessertParagraphs);
   dessertDiv.className = 'mx-10 tab-pane';
-  dessertParagraphs.className = 'font-bold text-lg text-yellow-900';
+  dessertParagraphs.className = 'font-bold text-3xl text-yellow-900 py-8';
   dessertImg.setAttribute('src', '/src/assets/imgs/dessert.png');
   dessertImg.className = 'w-full rounded';
 }
