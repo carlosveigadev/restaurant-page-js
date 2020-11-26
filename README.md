@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/wrakc/restaurant-page-js/feature/website/dist/index.html)
+[Live Demo Link](https://raw.githack.com/wrakc/restaurant-page-js/feature/website/dist/index.html)
 
 
 ## Author
