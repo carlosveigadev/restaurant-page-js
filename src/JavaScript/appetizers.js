@@ -14,7 +14,7 @@ function appetizers() {
   appetizersDiv.setAttribute('id', 'Appetizers');
   contentAppetizers.appendChild(appetizersParagraph);
   appetizersDiv.className = 'mx-10 tab-pane active';
-  appetizersParagraph.className = 'font-bold text-3xl text-yellow-900 py-8';
+  appetizersParagraph.className = 'font-bold text-xl text-yellow-900 py-4';
   appetizerImg.setAttribute('src', '/src/assets/imgs/appetizers.png');
   appetizerImg.className = 'rounded';
 }
