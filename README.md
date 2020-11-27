@@ -16,7 +16,22 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://raw.githack.com/wrakc/restaurant-page-js/feature/website/dist/index.html)
 
+## Setup
 
+ - Open a terminal
+ - Copy this code : 
+ 
+        git clone https://github.com/wrakc/restaurant-page-js.git
+
+- Open index.html that is inside the dist folder to check the result. 
+  
+- If you want to change anything, start your terminal and run the following commands to make sure everything is installed:
+  
+        bundle install
+       
+        npx run build
+
+  
 ## Author
 
 👤 **Carlos Veiga**
