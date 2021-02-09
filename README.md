@@ -21,7 +21,7 @@ Additional description about the project and its features.
  - Open a terminal
  - Copy this code : 
  
-        git clone https://github.com/wrakc/restaurant-page-js.git
+        git clone https://github.com/carlosveigadev/restaurant-page-js.git
 
 - Open index.html that is inside the dist folder to check the result. 
   
@@ -36,13 +36,13 @@ Additional description about the project and its features.
 
 👤 **Carlos Veiga**
 
-- Github: [@githubhandle](https://github.com/wrakc)
-- Twitter: [@twitterhandle](https://twitter.com/carlosveig)
-- Linkedin: [linkedin](https://linkedin.com/chveiga)
+- Github: [@githubhandle](https://github.com/carlosveigadev)
+- Twitter: [@twitterhandle](https://twitter.com/carlosveigadev)
+- Linkedin: [linkedin](https://linkedin.com/carlosveigadev)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
@@ -52,7 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks the minskins,
+- Thanks to the minskins,
 - and Microverse for the opportunity.
 
 ## 📝 License
